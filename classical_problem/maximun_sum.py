@@ -1,3 +1,7 @@
+'''
+You are given an array A of N integers and three integers B, C, and D.
+You have to find the maximum value of A[i]*B + A[j]*C + A[k]*D, where 1 <= i <= j <= k <= N.
+'''
 class Solution:
     def solve(self, A, B, C, D):
         left_max = [0]*len(A)
